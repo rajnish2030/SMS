@@ -1,0 +1,37 @@
+# Git
+.git
+.gitignore
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+npm-debug.log
+Dockerfile
+# Environment/secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+
+# Tests and caches
+__pycache__/
+.pytest_cache/
+coverage/
+.coverage
+
+# Documentation
+README.md
+docs/
+
+# Docker-related files, if not needed inside the image
+docker-compose*.yml
