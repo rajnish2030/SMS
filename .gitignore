@@ -11,3 +11,6 @@ env/
 
 # Environment variables
 *.env
+
+# Backup
+backend_backup/
